@@ -1,5 +1,9 @@
 === STEPS FOR USING GIT ===
-1. git init - must be run in the folder that we want to add to the repository 
-2. git add fileName or git add . (to add all the files) 
---- git works in two stages: stage and commit so in order to commit a file we
+1. git init -- must be run in the folder that we want to add to the repository 
+2. git add fileName or git add . (to add all the files) -- git works in two stages: stage and commit so in order to commit a file we
 first have to mark it as staged using the add command.
+2.1. git status -- to see what files have been staged for commit
+3. git commit -m "first commit" -- this is the command that will actually going to create the commit which can be later uploaded to GitHub.com 
+4. git branch -M main -- this command is creating a new branch which is called main (can use any name for branches)
+5. git remote add origin https://github.com/cbuzuloiu/AlgorithmsAndDataStructures.git -- this command is creating the remote repository which is on GitHub.com - it creates the link to the local machine 
+6. git push -u origin main -- upload our commit
