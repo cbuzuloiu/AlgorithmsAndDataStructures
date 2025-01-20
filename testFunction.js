@@ -17,7 +17,7 @@ function same(firstArr, secondArr) {
       console.log(`Is ${firstArr[i] ** 2} = ${secondArr[j]}?`);
     }
   }
-
+  //sadsa
   return 0;
 }
 
