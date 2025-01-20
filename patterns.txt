@@ -1,0 +1,7 @@
+================
+=== PATTERNS ===
+================
+
+=== FREQUENCY COUNTER PATTERN ===
+sameArray.js
+isAnagram.js
