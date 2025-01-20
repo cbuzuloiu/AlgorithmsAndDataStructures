@@ -1,0 +1,41 @@
+=======================
+LINEAR SEARCH ALGORITHM
+=======================
+
+- In Linear Search, we iterate over all the elements of the array and check if the current element is equal to the target element (arr[i] = targetElement)
+- If the condition is true:
+	- return index of the element
+- else:
+	- return -1 
+- Linear search is also known as sequential search
+
+! Compare the key with each element one by one starting from the first element
+
+####################################
+
+=== Step 1 ===
+
+[30] = not equal
+ ||
+[10][50][30][70][80][60][20][90][40]
+
+=== Step 2 ===
+
+    [30] = not equal
+     ||
+[10][50][30][70][80][60][20][90][40]
+
+=== Step 3 ===
+
+        [30] = equal
+         ||
+[10][50][30][70][80][60][20][90][40]
+
+####################################
+
+=== TIME COMPLEXITY ===
+
+- BEST CASE: Key at first index -- O(1)
+- WORST CASE: Key at last index -- O(N)
+- AVERAGE CASE:                 -- O(N)
+- AUXILIAR SPACE:               -- O(1) except for the variable to iterate through the list, no other variable is used
