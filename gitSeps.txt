@@ -1,0 +1,5 @@
+=== STEPS FOR USING GIT ===
+1. git init - must be run in the folder that we want to add to the repository 
+2. git add fileName or git add . (to add all the files) 
+--- git works in two stages: stage and commit so in order to commit a file we
+first have to mark it as staged using the add command.
