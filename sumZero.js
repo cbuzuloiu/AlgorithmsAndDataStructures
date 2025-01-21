@@ -26,6 +26,27 @@ function sumZero(arr) {
   }
 }
 
-console.log(sumZero([-3, -2, -1, 0, 1, 2, 3]));
-console.log(sumZero([-2, 0, 1, 3]));
-console.log(sumZero([1, 2, 3]));
+function sumZeroFinal(arr) {
+  let left = 0;
+  let right = arr.length - 1;
+  console.log(`Initial value or left is ${arr[left]}`);
+  console.log(`Initial value or right is ${arr[right]}`);
+
+  while (left < right) {
+    let sum = arr[left] + arr[right];
+    console.log(`The sum is: ${sum}`);
+    if (sum === 0) {
+      return [arr[left], arr[right]];
+    } else if (sum > 0) {
+      right--;
+      console.log(`Value of right was changed to ${arr[right]}`);
+    } else {
+      left++;
+      console.log(`Value of left was changed to ${arr[left]}`);
+    }
+  }
+}
+
+console.log(sumZeroFinal([-7, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6]));
+// console.log(sumZero([-2, 0, 1, 3]));
+// console.log(sumZero([1, 2, 3]));
