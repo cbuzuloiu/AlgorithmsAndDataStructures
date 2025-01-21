@@ -1,0 +1,52 @@
+=========
+RECURSION
+=========
+
+- Recursion is a process (function) that calls itself
+
+=== THE CALL STACK ===
+
+- the call stack is a stack data structure
+- any time a function is invoked it is placed (pushed) on the top of the call stack
+- when JS sees the return keyword or when the function ends, the compiler will remove the top item form the stack (pop)
+- when we write recursive function, we keep pushing new functions onto the call stack
+
+=== HOW RECURSIVE FUNCTIONS WORK ===
+
+- Invoke the same function with a different input until you reach your base case
+- BASE CASE = the condition when the recursion ends
+- There are two essential parts of a recursive function:
+	- Base case
+	- Different Input
+
+=== EXAMPLE ===
+
+function countDown(num) {
+  // base case - end point
+  if (num <= 0) {
+    console.log(num);
+    console.log(`All done!`);
+    return;
+  }
+
+  console.log(num);
+  // different input
+  num--;
+  countDown(num);
+}
+
+function sumRange(num) {
+  if (num === 1) {
+    return 1;
+  } else {
+    return num + sumRange(num - 1);
+  }
+}
+
+console.log(sumRange(3));
+
+/*
+num = 3 -- return 3 + sumRange(3-1)
+num = 2 --            return 2 + sumRange(2-1)
+num = 1 --                       return 1 
+*/

@@ -12,3 +12,8 @@ countUniqueValues.js
 
 === SLIDING WINDOW ===
 maxSubarraySum.js
+
+=== RECURSION ===
+countDown.js
+sumRange.js
+factorial.js
