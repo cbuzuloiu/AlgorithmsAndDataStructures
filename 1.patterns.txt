@@ -9,3 +9,6 @@ isAnagram.js
 === MULTIPLE POINTERS ===
 sumZero.js
 countUniqueValues.js
+
+=== SLIDING WINDOW ===
+maxSubarraySum.js
