@@ -26,6 +26,7 @@ function sumZero(arr) {
   }
 }
 
+// === Time Complexity O(N) Space Compleity O(1) ===
 function sumZeroFinal(arr) {
   let left = 0;
   let right = arr.length - 1;
@@ -47,6 +48,6 @@ function sumZeroFinal(arr) {
   }
 }
 
-console.log(sumZeroFinal([-7, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6]));
-// console.log(sumZero([-2, 0, 1, 3]));
+// console.log(sumZeroFinal([-7, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6]));
+console.log(sumZero([-2, 0, 1, 3]));
 // console.log(sumZero([1, 2, 3]));
