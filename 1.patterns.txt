@@ -17,3 +17,4 @@ maxSubarraySum.js
 countDown.js
 sumRange.js
 factorial.js
+collectOddValues.js
