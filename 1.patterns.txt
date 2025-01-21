@@ -5,3 +5,6 @@
 === FREQUENCY COUNTER PATTERN ===
 sameArray.js
 isAnagram.js
+
+=== MULTIPLE POINTERS ===
+sumZero.js
