@@ -8,6 +8,11 @@ first have to mark it as staged using the add command.
 5. git remote add origin https://github.com/cbuzuloiu/AlgorithmsAndDataStructures.git -- this command is creating the remote repository which is on GitHub.com - it creates the link to the local machine 
 6. git push -u origin main -- upload our commit
 
+=== CLONING A REPOSITORY ===
+git clone https://github.com/cbuzuloiu/AlgorithmsAndDataStructures.git
+
+=== PULL FROM A REPOSITORY ===
+git pull origin main
 
 === SHORT VERSION ==
 git add .
