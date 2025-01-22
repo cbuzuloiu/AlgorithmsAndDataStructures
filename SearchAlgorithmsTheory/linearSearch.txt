@@ -2,6 +2,14 @@
 LINEAR SEARCH ALGORITHM
 =======================
 
+=== SEARCH METHODS IN JAVASCRIPT ===
+- indexOf
+- includes
+- find
+- findIndex
+
+################################################################################
+
 - In Linear Search, we iterate over all the elements of the array and check if the current element is equal to the target element (arr[i] = targetElement)
 - If the condition is true:
 	- return index of the element
@@ -11,7 +19,7 @@ LINEAR SEARCH ALGORITHM
 
 ! Compare the key with each element one by one starting from the first element
 
-####################################
+################################################################################
 
 === Step 1 ===
 
@@ -31,7 +39,7 @@ LINEAR SEARCH ALGORITHM
          ||
 [10][50][30][70][80][60][20][90][40]
 
-####################################
+################################################################################
 
 === TIME COMPLEXITY ===
 
